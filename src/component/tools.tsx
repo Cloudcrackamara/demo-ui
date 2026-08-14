@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ToolsSection = (): React.JSX.Element => {
   return (
-    <section className="bg-white py-16 px-6 sm:px-12 md:px-24 w-full overflow-hidden">
+    <section className="bg-white py-16 px-6 sm:px-12 md:px-16 lg:px-34 w-full overflow-hidden">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* Left Content Column */}

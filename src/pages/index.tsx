@@ -10,6 +10,12 @@ import ToolsSection from "@/component/tools";
 import QuizShowcase from "@/component/quix";
 import ManagementShowcase from "@/component/class-management";
 import DiscussionShowcase from "@/component/discussion";
+import ExploreCourse from "@/component/explore";
+import Testimonials from "@/component/testimonial";
+import Blog from "@/component/landingBlog";
+import LandingBlog from "@/component/landingBlog";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +43,11 @@ export default function Home() {
         <QuizShowcase />
         <ManagementShowcase />
         <DiscussionShowcase />
+        <ExploreCourse />
+        <Testimonials />
+        <Blog />
+        <LandingBlog />
+        
       </main>
       
     </div>

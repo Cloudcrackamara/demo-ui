@@ -16,7 +16,7 @@ const navbar = () => {
   const router = useRouter();
   return (
     <div className="flex justify-between items-center sticky top-0 z-50">
-      <div className="navbar bg-[#49BBBD]  px-4 lg:px-32">
+      <div className="navbar bg-[#49BBBD]  px-4 lg:px-32 md:px-16">
         <div className="navbar-start">
           <Link href="/" className="">
             <Image
@@ -47,8 +47,8 @@ const navbar = () => {
         </div>
         
         <div className="navbar-end gap-2 ">
-          <a className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110] h-[40] hidden md:flex ">Login</a>
-          <a className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110] h-[40] hidden md:flex">Sign Up</a>
+          <Link href="/login" className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110] h-[40] hidden md:flex ">Login</Link>
+          <Link href="/signup" className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110] h-[40] hidden md:flex">Sign Up</Link>
           
         </div>
 
@@ -79,8 +79,8 @@ const navbar = () => {
                 </li>
               ))}
                <div className=" flex gap-2 mt-3">
-          <a className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110] h-[40] flex md:hidden ">Login</a>
-          <a className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110] h-[40] flex md:hidden">Sign Up</a>
+          <Link href="/login" className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110] h-[40] flex md:hidden ">Login</Link>
+          <Link href="/signup" className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110] h-[40] flex md:hidden">Sign Up</Link>
           
         </div>
             </ul>

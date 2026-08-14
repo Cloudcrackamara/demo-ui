@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './navbar'
+import Footer from './footer'
 
 type LayoutProps = {
   children: React.ReactNode
@@ -12,6 +13,7 @@ const layout = ({children}: LayoutProps) => {
         <main className="flex-1 ">
       {children}
       </main>
+       <Footer />
     </div>
   )
 }
