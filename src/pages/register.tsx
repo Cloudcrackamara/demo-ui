@@ -53,7 +53,7 @@ const Register = (): React.JSX.Element => {
       <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* LEFT COLUMN: VISUAL BRAND ACCENT CONTAINER */}
-        <div className="relative w-full aspect-[4/5] lg:h-[680px] xl:h-[740px] rounded-[30px] overflow-hidden shadow-sm">
+        <div className="relative w-full aspect-[4/5] lg:h-[680px] xl:h-[740px] rounded-[30px] overflow-hidden shadow-sm hidden md:flex">
           <Image
             src="/images/register-image.png"
             alt="Young children raising hands happily sitting in classroom setting"
