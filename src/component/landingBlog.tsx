@@ -3,7 +3,7 @@
  import React from 'react';
  import Image from 'next/image';
  import Link from 'next/link';
- import { mainFeaturedPost, sideBlogList } from '@/component/blogs/blogData';
+import { mainFeaturedPost, sideBlogList } from '@/component/Blogs/blogData';
  
  const LandingBlog = (): React.JSX.Element => {
    return (
