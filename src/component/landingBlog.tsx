@@ -103,4 +103,6 @@ import { mainFeaturedPost, sideBlogList } from '@/component/Blogs/blogData';
    );
  };
  
- export default LandingBlog;
+ export default LandingBlog; 
+
+ 
